@@ -1,0 +1,22 @@
+{
+  "global_settings": {
+    "output_file": "output/final_video.mp4",
+    "fps": 30
+  },
+  "segments": [
+    {
+      "file": "videos/scene01.mp4",
+      "duration": 5,
+      "transition": "fadein"
+    },
+    {
+      "file": "videos/scene02.mp4",
+      "duration": 6,
+      "transition": "crossfade"
+    },
+    {
+      "file": "videos/scene03.mp4",
+      "duration": 8
+    }
+  ]
+}
